@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>GRADING SYSTEM ASSIGNMENT</h1>
+    <div id="main">
+        <div id="one">
+            <h1 id="grades">Grading System In JS</h1>
+            <label for="english">English</label>
+            <input type="number" id="english" >
+            <br>
+            <br>
+            <label for="maths">Maths</label> 
+            <input type="number" id="maths" >
+            <br>
+            <br>
+            <label for="phy">Physics</label>
+            <input type="number" id="phy" >
+            <br>
+            <br>
+            <label for="chem">Chemistry</label>
+            <input type="number" id="chem">
+            <br>
+            <br>
+            <label for="comp">Computer</label>
+            <input type="number" id="comp">
+            <br>
+            <button onclick="handle()">Calculate Grade</button>
+        </div>
+        <div id="two"> 
+            <div>
+                <h2>Total</h2>
+                <h3 id="tot" class="emp"></h3>
+            </div>
+            <div>
+                <h2>Average</h2>
+                <h3 id="avg" class="emp"></h3>
+            </div>
+            <div>
+                <h2>Grade</h2>
+                <h3 id="gra" class="emp"></h3>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

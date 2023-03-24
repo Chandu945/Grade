@@ -1,0 +1,39 @@
+#main{
+    display: flex;
+}
+#one{
+    text-align: center;
+
+}
+#two{
+    margin-left: 5px;
+}
+h1{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0px 30px;
+}
+h2{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0%
+}
+label{
+    padding-right: 25px;
+}
+button{
+    margin-top: 15px;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+}
+.emp{
+    padding: 50px 200px
+}
+#greades{
+    width: 400px;
+}
